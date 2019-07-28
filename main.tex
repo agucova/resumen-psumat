@@ -16,6 +16,7 @@
 \usepackage{microtype}
 \usepackage{graphicx}
 \usepackage{amsfonts} 
+\usepackage{amsmath}
 \graphicspath{ {./imagenes/} }
 
 \let\bar\overline
@@ -183,7 +184,8 @@ por~Agustín Covarrubias,~página~\thepage~de~2
 
 \begin{document}
 \small
-\begin{multicols*}{5}
+\begin{multicols}{5}
    \input{secciones/numeros}
-\end{multicols*}
+   \input{secciones/algebra}
+\end{multicols}
 \end{document}
