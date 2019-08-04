@@ -8,6 +8,13 @@ $ a^3 \pm b^3 = (a \pm b)(a^2 \mp ab + b^2)$\\
 $ (x + p)(x + q) = x^2 + x(p + q) + pq $\\
 $ a (a + b + 1) = a^2 + ab + a $\\
 
+\subsection{Dominio y Recorrido}
+El \textit{dominio} de definición de una función es el conjunto de valores de entrada, o argumentos, para la cual una cierta función está definida. Análogamente, el conjunto de valores de salida, es denominado \textit{rango o imagen}, que es un subconjunto del codominio de la función. Gráficamente, el dominio está representado por el eje x de un plano cartesiano, y el rango por el eje y.\\
+
+Para una función $f: X \rightarrow Y$, donde el conjunto $X$ es el dominio, e $Y$ el codominio, el rango está definido por $\left\{ f(x) | x \in X \right\}$, y siempre es un subconjunto de $Y$. Cuando el rango es todo el conjunto del codominio, la función es sobreyectiva.\\
+
+El rango también se puede encontrar en el dominio de la función inversa, es decir, invirtiendo la variable independiente con la dependiente, y resolviendo el dominio.\\
+
 \subsection{Inyectividad y Epiyectividad}
 Una función $f(x)$ es \textit{inyectiva} cuando,
 $\forall a,b \in X, \;\; f(a)=f(b) \Rightarrow a=b$
@@ -48,3 +55,24 @@ Siguen la forma general $f(x) = log_b{x}$, y son inversas de las funciones expon
     \includegraphics[width=0.49\columnwidth]{funcionlogaritmica1}
     \includegraphics[width=0.49\columnwidth]{funcionlogaritmica2}
 \end{minipage}
+
+\subsection{Sistemas de Ecuaciones Lineales}
+Un \textbf{sistema de ecuaciones lineales} o sistema lineal es una colección de dos o mas ecuaciones lineales (nótese, uso no análogo a afín/lineal) que involucra el mismo conjunto de variables. Una \textbf{solución} a tal sistema es una asignación de valores a las variables de forma de que todas se encuentren satisfechas.\\
+
+\textit{Nota:} Formalmente, se define como forma general:\\
+$a_{11} x_1 + a_{12} x_2  + \cdots + a_{1n} x_n  = b_1 \\
+    a_{21} x_1 + a_{22} x_2  + \cdots + a_{2n} x_n  = b_2 \\
+    \ \ \vdots\\
+    a_{m1} x_1 + a_{m2} x_2  + \cdots + a_{mn} x_n  = b_ m$\\
+    Donde $x_1, x_2,\ldots,x_n$ son las incógnitas, $a_{11},a_{12},\ldots,a_{mn}$ los coeficientes, y $b_1,b_2,\ldots,b_m$ términos constantes.\\
+
+    Aparte de esta forma, un sistema lineal puede ser representado como una combinación lineal de una ecuación vectorial, una ecuación de matrices (por equivalencia) y una representación geométrica de \textit{n-}planos.
+\subsubsection{Interpretación Geométrica}
+Un sistema de ecuaciones lineales con dos incógnitas y dos ecuaciones pueden representarse como \textbf{dos rectas en el plano}, con sus respectivas intersecciones correspondiendo a las soluciones al sistema.
+\textit{Nota:} Para tres variables, cada ecuación linear determina un plano en espacio tridimensional, y para \textit{n} variables, cada ecuación lineal determina un hiperplano (un subespacio con una dimensión una menor que la de su espacio) en un espacio \textit{n-}dimensional.
+\subsubsection{Soluciones}
+Según la cantidad de soluciones, un sistema de ecuaciones lineales (en este caso. $2\times2$) puede ser clasificado en:\\
+
+\textit{Compatible determinado:} Una solución, es decir, las rectas son secantes entre ellas (un punto de intersección).\\
+\textit{Compatible indeterminado:} Infinitas soluciones, es decir, las rectas son coincidentes.\\
+\textit{Incompatible:} Ninguna solución, ocurre cuando las rectas son paralelas (igual pendiente).\\

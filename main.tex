@@ -17,6 +17,13 @@
 \usepackage{graphicx}
 \usepackage{amsfonts} 
 \usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{siunitx}
+
+\newenvironment{rcases}
+  {\left.\begin{aligned}}
+  {\end{aligned}\right\rbrace}
+
 \graphicspath{ {./imagenes/} }
 
 \let\bar\overline
@@ -187,5 +194,6 @@ por~Agustín Covarrubias,~página~\thepage~de~2
 \begin{multicols}{5}
    \input{secciones/numeros}
    \input{secciones/algebra}
+   \input{secciones/geometria}
 \end{multicols}
 \end{document}
