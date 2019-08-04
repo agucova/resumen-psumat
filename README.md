@@ -11,3 +11,6 @@ Estoy agregando continuamente nuevos contenidos a medida que los estudio, así q
 
 # Descarga
 Puedes descargar el cheatsheet como pdf apretando [aquí](https://github.com/agucova/resumen-psumat/raw/master/main.pdf), intenta imprimirlo sin márgenes y con color en A4 o carta.
+
+# Misceláneo
+Si quieren ver otro proyecto de matemáticas PSU que también es libre y abierto, miren el excelente (y hermoso) libro que se está haciendo en [fcocea/MathBook](https://github.com/fcocea/MathBook).
