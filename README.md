@@ -1,5 +1,4 @@
 # Resumen/Cheatsheet PSU Matemática
-# Previsualización
 ![Previsualización del Resumen](/previsualizacion.png)
 
 # Desarrollo
