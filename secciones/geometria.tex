@@ -20,11 +20,16 @@ $\measuredangle ACB = \frac{\measuredangle AOB}{2}$.\\
 Análogamente, con $\angle ABC$ semiinscrito (tangente), y $\angle BOC$ de centro, $\measuredangle ABC = \frac{\measuredangle BOC}{2}$.\\
 
 La medida de un \textbf{ángulo interior} es igual a la semisuma de las medidas angulares (de centro) de los arcos formados por dicho ángulo:
-$\measuredangle APB = \frac{m(\stackrel\frown{AB}) + m(\stackrel\frown{CD})}{2}$, con $\angle APB$ interior, y $\stackrel\frown{AB}$ y $\stackrel\frown{CD}$ arcos formados por el.\\
+\begin{equation*}
+    \measuredangle APB = \frac{m(\stackrel\frown{AB}) + m(\stackrel\frown{CD})}{2}
+\end{equation*}
+Con $\angle APB$ interior, y $\stackrel\frown{AB}$ y $\stackrel\frown{CD}$ arcos formados por el.\\
 
-De la misma forma, la medida de un \textbf{ángulo exterior} es igual a la semidiferencia de los ángulos de centro formados por el ángulo. (mayor primero)\\
+De la misma forma, la medida de un \textbf{ángulo exterior} es igual a la semidiferencia de los ángulos de centro formados por el ángulo. (mayor primero)
+\begin{equation*}
+    \measuredangle APB = \frac{m(\stackrel\frown{AB}) - m(\stackrel\frown{CD})}{2}
+\end{equation*}
 
-\vfill\null\columnbreak
 \subsubsection{Teoremas de Trazos}
 \textbf{Teorema de las Cuerdas}\\
 
@@ -44,6 +49,17 @@ De la misma forma, la medida de un \textbf{ángulo exterior} es igual a la semid
 Un conjunto de puntos son llamados \textbf{colineales} si pertenecen a una misma recta, lo que puede ser verificado por la igualdad constituida entre las pendientes entre cada par. En álgebra lineal, también se puede verificar comprobando si el área del polígono formado entre los puntos es cero. Trivialmente, todo par de puntos en un plano son colineales, ya que forman una línea.\\
 
 Dos rectas en un mismo plano son llamadas \textbf{coincidentes} si están constituidas por el mismo conjunto de puntos, \textbf{paralelas} si no tienen ningún punto en común (igual pendiente), \textbf{secantes} si solo se intersectam en un punto y \textbf{perpendiculares} si forman entre ellas ángulos rectos ($m_1 \cdot m_2 = -1$).\\
+
+\subsubsection{Teorema de Thales}
+Si dos o más \textbf{rectas paralelas} se intersectan por dos transversales, entonces las medidas de los segmentos determinados sobre las secantes son \textbf{proporcionales}.
+\begin{center}
+\colorbox{white}{\includegraphics[width=0.5\columnwidth]{teoremathales}}
+\end{center}
+\subsubsection{Teorema Particular de Thales}
+Establece que un segmento de recta paralelo a un lado de un triángulo y que corta a los otros dos, determina en estos últimos segmentos proporcionales. Es importamente mencionar de que el teorema es \textbf{recíproco}.
+\begin{center}
+    \includegraphics[width=0.8\columnwidth]{teoremathalesparticular}
+\end{center}
 
 \subsubsection{Ecuación Vectorial y Paramétrica}
 Una recta puede ser expresada en la forma de una \textbf{ecuación vectorial} donde se encuentra definida por un punto de ella, y su dirección. Cualquier vector con la misma dirección (ángulo o pendiente) con respecto a la recta, es llamado \textbf{vector director} ($\vec{d}$), y asimismo un vector de un punto P perteneciente a la recta, es llamado \textbf{vector de posición} ($\vec{P_0}$).\\
@@ -71,7 +87,7 @@ Y paramétricamente:
     \end{rcases}
     \lambda \in \mathbb{R}
     \end{equation*}
-\vfill\null\columnbreak
+
 \subsection{Figuras Planas}
 \subsubsection{Congruencia y Semejanza}
 Se dice que dos ángulos son congruentes si tienen la misma medida.
@@ -82,7 +98,7 @@ Por extensión, dos figuras planas son llamadas \textbf{congruentes} si tienen \
 En este contexto, entre dos figuras, los vértices, lados y ángulos que coinciden (homologament)e son llamados \textbf{correspondientes}. La congruencia entre objetos se denota "$\cong$".
 
 Por el otro lado, dos figuras son \textbf{semejantes} ($\sim$) si tienen la misma forma, pero no necesariamente el mismo tamaño (la congruencia es una clase de semejanza), es decir, si todos sus ángulos interiores correspondientes son iguales y la razón entre las medidas de sus lados es constante.
-
+\vfill\null\columnbreak
 \subsubsection{Triángulos}
 \textbf{Criterios de Congruencia}\\
 \textit{Lado, Lado, Lado (LLL)}: Todos los lados respectivos son congruentes entre ellos.\\
@@ -105,7 +121,7 @@ También de esto se deriva que el cuadrado de un cateto es igual al producto de 
 \begin{equation*}
     a^2 = c \cdot x; b^2 = c \cdot y
 \end{equation*}
-
+\vfill\null\columnbreak
 \textbf{Teorema de Pitagoras}\\
 En un triángulo \textbf{rectángulo}, el área del cuadrado construido sobre la hipotenusa es igual a la suma de las áreas de los cuadrados sobre los catetos.
 \includegraphics[width=\columnwidth]{pitagoras}
@@ -148,7 +164,7 @@ El cilindro recto es el cuerpo generado al girar un rectángulo en torno a la re
     V &= \pi r^2h
     \end{split}
 \end{equation*}
-\vfill\null\columnbreak
+
 \subsubsection{Cono}
 Un cono recto es el cuerpo generado al girar un triángulo rectángulo en torno a la recta que contiene uno de sus catetos. La hipotenusa de tal triángulo se llama generatriz. ($g$)
 
